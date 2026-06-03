@@ -724,8 +724,8 @@ export default function Home() {
               © 2026 R1b-L238 Haplogroup Project. All Rights Reserved.
             </div>
             <div className="flex gap-4">
-              <a href="https://www.familytreedna.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors inline-flex items-center gap-1">
-                FamilyTreeDNA
+              <a href="https://www.familytreedna.com/groups/r1b-l238/activity-feed" target="_blank" rel="noreferrer" className="hover:text-white transition-colors inline-flex items-center gap-1">
+                FTDNA Project Group
                 <ExternalLink className="h-3 w-3" />
               </a>
               <span className="text-slate-800">|</span>
