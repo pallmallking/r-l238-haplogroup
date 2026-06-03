@@ -25,6 +25,8 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { SNP_IMAGES, BRANCH_INFO, COUNTRIES, TIMELINE_EVENTS, SNPImage } from '../const';
 import ZoomableImage from '../components/ZoomableImage';
+import LineageMap from '../components/LineageMap';
+import AncestorDatabase from '../components/AncestorDatabase';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -182,6 +184,29 @@ export default function Home() {
         {/* Tab Content: Trees */}
         {activeTab === 'trees' && (
           <div className="space-y-8">
+            {/* Step 1: Interactive SVG Lineage Map */}
+            <LineageMap 
+              onSelectBranch={(branch) => {
+                setSelectedBranch(branch);
+                // Scroll down slightly to the filtered list
+                document.getElementById('trees-gallery-header')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              activeBranch={selectedBranch}
+            />
+
+            {/* Step 2: Dynamic Ancestor Database */}
+            <AncestorDatabase />
+
+            {/* Gallery Header Anchor */}
+            <div id="trees-gallery-header" className="pt-4 border-t border-slate-200">
+              <h2 className="text-2xl font-serif font-bold text-slate-900 mb-1">
+                Detailed SNP Tree Gallery
+              </h2>
+              <p className="text-xs text-slate-500 font-light">
+                Browse, explore, and download high-resolution researcher-curated SNP tree charts.
+              </p>
+            </div>
+
             {/* Search and Filters Card */}
             <Card className="border-slate-200/80 shadow-sm bg-white rounded-xl">
               <CardContent className="p-6">
