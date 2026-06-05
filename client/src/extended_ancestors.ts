@@ -22,16 +22,16 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Elijah Starkey born 1800 Alabama?",
     "date": "1800",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
     "kit": "N75889"
   },
   {
     "name": "Hugh Graham",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-P312",
     "branch": "Swedish / Scandinavian",
@@ -40,7 +40,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Pål Larsson Heinonen",
     "date": "b 1680 and d. 1737 (BD)",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y61271",
     "branch": "Norwegian",
@@ -57,8 +57,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Lars Gunnarsson Birkeland c.1645-1715 Sokndal ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -67,7 +67,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Andreas Svensson",
     "date": "b. 1803 d.1855",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -75,8 +75,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ole Hansen 1790-1869 Steinsland Sirdal V-AGD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y11662",
     "branch": "Swedish / Scandinavian",
@@ -84,8 +84,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Olluff Bergsjø (lived 1505) Høland AKR",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-A6292",
     "branch": "Norwegian",
@@ -94,7 +94,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "James Wright b. 1750-60 Va",
     "date": "1750",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-Y133875",
     "branch": "British / Norwegian-British",
@@ -103,7 +103,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Roy Twine",
     "date": "b. 1921 and d. 2008",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -111,8 +111,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Sven Larsson 1820-1908",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -121,7 +121,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Nils Jonsson",
     "date": "1761 - 1828",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -129,8 +129,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ole Christiansen Fjeld 1802- Aurskog AKR",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY3516",
     "branch": "Swedish / Scandinavian",
@@ -139,7 +139,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Börjesson",
     "date": "b. 1702 and d. 1783",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -147,8 +147,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Gudbrand Jonsson Hjera c1710-1754 Eidsvoll AKR-",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -156,8 +156,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ola Tjølvsson N. Frøyhov c.1634-1705 Nes AKR",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -165,8 +165,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Tarald Olsen Vestre Greni 1600-1675 Nes AKR",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -174,8 +174,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Maurits Toreson Netland 1660-1732 Hellvik ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY45118",
     "branch": "Swedish / Scandinavian",
@@ -183,8 +183,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ernst Hugo Bernhard Sjöberg",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FTB95470",
     "branch": "Swedish / Scandinavian",
@@ -193,7 +193,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Andersson Back 1735 Munsala",
     "date": "d.1804",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-BY4661",
     "branch": "Norwegian",
@@ -202,7 +202,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Sund",
     "date": "born abt 1895",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-BY31792",
     "branch": "Norwegian",
@@ -211,7 +211,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Pleasant Vincent Rhea b. 1821 and d. 1901",
     "date": "1821 - 1901",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY112354",
     "branch": "Swedish / Scandinavian",
@@ -229,7 +229,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Axel Fredrik Andersson",
     "date": "b. 1869 and d. 1958",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY82912",
     "branch": "Swedish / Scandinavian",
@@ -238,7 +238,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Eilef A.Hegna",
     "date": "b.1920-d.2002",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y88014",
     "branch": "Norwegian",
@@ -247,7 +247,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "David Wainikainen b. 1847 and d. 1900",
     "date": "1847 - 1900",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-BY155681",
     "branch": "Swedish / Scandinavian",
@@ -257,15 +257,15 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
     "name": "Wilson Ray (b 1828",
     "date": "TN d 1870",
     "place": "Montgomery Co, IL)",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-BY112354",
     "branch": "Swedish / Scandinavian",
     "kit": "111873"
   },
   {
     "name": "James Rea 1728-1788 m. Johanna Kasoina",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -274,7 +274,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Joseph Wilson b. 1820 d. 1861",
     "date": "1820 - 1861",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY4675",
     "branch": "Swedish / Scandinavian",
@@ -282,8 +282,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Henrik Pedersen Helland 1778-1848 Strand ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y85422",
     "branch": "Swedish / Scandinavian",
@@ -292,16 +292,16 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "William A. Brooks b. unknown d. 1817 KY",
     "date": "1817",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
     "kit": "541577"
   },
   {
     "name": "Ole Gundersen Hammersmark 1616-1668",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -310,7 +310,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Otto Walfred Dahl b. 1862 Dalsland (O)",
     "date": "1862",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -318,7 +318,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Martin Valdemar Pedersen b1817 Strømsø",
-    "date": null,
+    "date": "",
     "place": "BUS",
     "country": "Norway",
     "associatedSNP": "L238",
@@ -328,7 +328,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Albert Nikolai Nelson",
     "date": "b. 1874 WI - d. 1934 MN",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-A8150",
     "branch": "Swedish / Scandinavian",
@@ -337,7 +337,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jonas Nilsson",
     "date": "b. 1723 and d. 1772",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY25484",
     "branch": "Swedish / Scandinavian",
@@ -346,7 +346,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johnson Summers b. 1798 North Carolina",
     "date": "1798",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "L238",
     "branch": "British / Norwegian-British",
@@ -354,7 +354,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Søren Poulsen years",
-    "date": null,
+    "date": "",
     "place": "place?",
     "country": "Denmark",
     "associatedSNP": "R-BY4683",
@@ -372,8 +372,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Hans Olsen 1788-1838 Aurskog AKR AKRand AKR",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -382,7 +382,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Göran Svensson b. ca 1712. d. 1790 in Vimmerby (H)",
     "date": "1712 - 1790",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -390,8 +390,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Reier Bjørnsen Dovland b c 1520 Vegusdal A-AGD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -399,8 +399,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Nils Jonsson Romarheim c.1688-1747 Hosanger HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -408,8 +408,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Iver Mikkelsson Sperre 1745 -1816",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y47252",
     "branch": "Swedish / Scandinavian",
@@ -418,7 +418,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Hansson b. 1596 d. 1691 Skallsjö (P)",
     "date": "1596 - 1691",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT226292",
     "branch": "Swedish / Scandinavian",
@@ -445,7 +445,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jonas Andersson",
     "date": "b. 1723 and d. 1794",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY165937",
     "branch": "Swedish / Scandinavian",
@@ -453,7 +453,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Hans Nilsson 1683-1737 Vimmerby",
-    "date": null,
+    "date": "",
     "place": "Kälmar, SE",
     "country": "Sweden",
     "associatedSNP": "R-Y100721",
@@ -463,7 +463,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Carl Fredrik Olsson",
     "date": "1861 Eggvena (P) - 1925 Ggb K",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y129531",
     "branch": "Swedish / Scandinavian",
@@ -472,7 +472,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Nils Olsen Gram b.1640",
     "date": "1640",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY78471",
     "branch": "Norwegian",
@@ -480,7 +480,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Matz Eriksson Stormas 1665-1737",
-    "date": null,
+    "date": "",
     "place": "Malax",
     "country": "Finland",
     "associatedSNP": "R-Y72477",
@@ -490,8 +490,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Summers",
     "date": "c. 1736 - c. 1809 North Carolina",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-Y48619",
     "branch": "British / Norwegian-British",
     "kit": "197691"
@@ -499,7 +499,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Robert Morley b. 1657 and d. 1698",
     "date": "1657 - 1698",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "British / Norwegian-British",
@@ -507,9 +507,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "George W. Ray 1824-1906",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY112354",
     "branch": "Swedish / Scandinavian",
     "kit": "984079"
@@ -517,7 +517,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John W Keeling b. 1855 and d. 1928",
     "date": "1855 - 1928",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY112354",
     "branch": "Swedish / Scandinavian",
@@ -534,8 +534,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Gudmund Hendrickson Eige 1820-1917 Fister ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4667",
     "branch": "Swedish / Scandinavian",
@@ -552,9 +552,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ambrose Asher",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
     "kit": "805969"
@@ -562,7 +562,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Per Persson",
     "date": "b. approx. 1640",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -579,8 +579,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Christian Pedersen 1667",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT126250",
     "branch": "Swedish / Scandinavian",
@@ -597,8 +597,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anders Svensson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY165937",
     "branch": "Swedish / Scandinavian",
@@ -607,8 +607,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Edward Oliver Johnson",
     "date": "b.1854 and d. 1896",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-FTC30310",
     "branch": "Swedish / Scandinavian",
     "kit": "975507"
@@ -616,7 +616,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Francis McFall",
     "date": "b.1710 and d. 1759",
-    "place": null,
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-BY4659",
     "branch": "Swedish / Scandinavian",
@@ -634,7 +634,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johannes Bernerus",
     "date": "b. 1625 and d. 1674",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-Y130865",
     "branch": "Norwegian",
@@ -651,8 +651,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Knud Einarsen 1810-1875 Haus HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY106830",
     "branch": "British / Norwegian-British",
@@ -660,8 +660,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anders Eilevson Otterstad c.1600-1655 Modalen HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY38747",
     "branch": "British / Norwegian-British",
@@ -669,9 +669,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Nathaniel Floyd 1779 South Carolina",
-    "date": null,
+    "date": "",
     "place": "d. East TN",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-Y133875",
     "branch": "British / Norwegian-British",
     "kit": "268187"
@@ -679,7 +679,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Larsson d. 1705",
     "date": "1705",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y28604",
     "branch": "Swedish / Scandinavian",
@@ -688,7 +688,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Wilhelm Alfred Küchler",
     "date": "1887-1970 Leipzig",
-    "place": null,
+    "place": "",
     "country": "Germany",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -696,8 +696,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "William Ash/Ashe",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-FT121278",
     "branch": "Swedish / Scandinavian",
@@ -714,8 +714,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Christen Ladefoged 1665-1745",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-FT72613",
     "branch": "Swedish / Scandinavian",
@@ -724,7 +724,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Nils Tyrsson b. 1635 Veta (E) Sweden",
     "date": "1635",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y129531",
     "branch": "Swedish / Scandinavian",
@@ -733,7 +733,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jöns Svensson b. 1775 and d. 1829",
     "date": "1775 - 1829",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY82912",
     "branch": "Swedish / Scandinavian",
@@ -742,7 +742,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Clarence Addison Johnson",
     "date": "b. 1906 and d. 1988",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-A6292",
     "branch": "Norwegian",
@@ -750,8 +750,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Syver Hansen Braathen 1892-1934 Ramnes VFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y88014",
     "branch": "Norwegian",
@@ -759,8 +759,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anders Eilevson Otterstad 1602-1682 Modalen HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY38747",
     "branch": "British / Norwegian-British",
@@ -769,15 +769,15 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Summers",
     "date": "b. c 1735 VA d. 1805 KY",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-Y48619",
     "branch": "British / Norwegian-British",
     "kit": "921067"
   },
   {
     "name": "John Summers",
-    "date": null,
+    "date": "",
     "place": "b.?, d. 1823",
     "country": "United States",
     "associatedSNP": "L238",
@@ -787,7 +787,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Susanna Adriana van Zyl",
     "date": "d. 1951",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FTG55233",
     "branch": "British / Norwegian-British",
@@ -796,7 +796,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Alexander Garden",
     "date": "b1720 Rathven Banff Scotland",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT116774",
     "branch": "Swedish / Scandinavian",
@@ -822,7 +822,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Syver Toresen Eeg c1667-1746 Hurum",
-    "date": null,
+    "date": "",
     "place": "BUS",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
@@ -841,7 +841,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Evert Vilhelm Myhrman",
     "date": "b. 1911 and d. 1978",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -849,8 +849,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Brynjel Olavs Lavikhaugen b1633 Modalen HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -867,8 +867,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Francis McFall 1710-1759",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -877,15 +877,15 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Albin Andreasson",
     "date": "1800",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
     "kit": "IN89695"
   },
   {
     "name": "Erik Eriksson ínäs 1699-1770",
-    "date": null,
+    "date": "",
     "place": "Solf",
     "country": "Finland",
     "associatedSNP": "R-BY4683",
@@ -894,8 +894,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Jón Jónsson (1780-1843)",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Iceland",
     "associatedSNP": "R-PH4990",
     "branch": "Swedish / Scandinavian",
@@ -904,7 +904,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Pedersen Krogtoft",
     "date": "1681-1757 Vestvågøy NRL",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y31389",
     "branch": "Swedish / Scandinavian",
@@ -913,7 +913,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Olsson b.ca 1718 Tanum (O) SE",
     "date": "1718",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT374931",
     "branch": "Swedish / Scandinavian",
@@ -922,7 +922,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jonas Magnusson",
     "date": "1786 - 1862",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FTD52717",
     "branch": "Swedish / Scandinavian",
@@ -939,16 +939,16 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Robert Anderson",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-Y154970",
     "branch": "Swedish / Scandinavian",
     "kit": "38456"
   },
   {
     "name": "Anders Torkildson Ytre-Eide b c1495",
-    "date": null,
+    "date": "",
     "place": "Stryn SFJ",
     "country": "Norway",
     "associatedSNP": "R-FTC30310",
@@ -966,8 +966,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "John Young 1715",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTD32648",
     "branch": "Swedish / Scandinavian",
@@ -976,7 +976,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Nils Persson",
     "date": "1743 - 1810",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y81319",
     "branch": "Swedish / Scandinavian",
@@ -1003,7 +1003,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Hans Hansson Bolin b.1758 Gävle",
     "date": "1758",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1012,7 +1012,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johannes Vetlejord b. 1636 Vaksdal HRD",
     "date": "1636",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FTD58602",
     "branch": "Swedish / Scandinavian",
@@ -1029,8 +1029,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Torger Nielsen Auke 1620-1675 Svelvik VFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Z2247",
     "branch": "Swedish / Scandinavian",
@@ -1038,8 +1038,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Sven Jakobsen Lindland b1740 Sokndal ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y47067",
     "branch": "Swedish / Scandinavian",
@@ -1047,8 +1047,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Peder Olsson b 1659 d1708 Hetland Bjerkreim ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT29845",
     "branch": "Swedish / Scandinavian",
@@ -1066,7 +1066,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "William Anderson",
     "date": "b. 1763 d. 1844",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-Y98820",
     "branch": "Swedish / Scandinavian",
@@ -1075,7 +1075,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Notto Salvesen Hornnes d. 1637 Hornnes A-AGD",
     "date": "1637",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT49911",
     "branch": "Norwegian",
@@ -1083,8 +1083,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "John Derrickson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FT237258",
     "branch": "Swedish / Scandinavian",
@@ -1093,7 +1093,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Alexander Young",
     "date": "b. 1799 and d. 1862",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTD32648",
     "branch": "Swedish / Scandinavian",
@@ -1101,17 +1101,17 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ronald nelson",
-    "date": null,
+    "date": "",
     "place": "Washington",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-BY148963",
     "branch": "Swedish / Scandinavian",
     "kit": "340481"
   },
   {
     "name": "John Asher B. abt 1640 England D. 1740 Virginia",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT121892",
     "branch": "Swedish / Scandinavian",
@@ -1120,7 +1120,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Henry Tenney b. 1510 d. 1558",
     "date": "1510 - 1558",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT116921",
     "branch": "Swedish / Scandinavian",
@@ -1128,8 +1128,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Asbjørn Karlsen Hove 1537-1616 Hovsherad ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y47067",
     "branch": "Swedish / Scandinavian",
@@ -1137,7 +1137,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Michael Crawford b ca1750 d1821 Anson Co.",
-    "date": null,
+    "date": "",
     "place": "NC",
     "country": "United States",
     "associatedSNP": "R-FT207254",
@@ -1146,8 +1146,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Peder Johannesen Korpberget c 1773-1851 N-Fron OPL",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY63862",
     "branch": "Norwegian",
@@ -1156,7 +1156,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Rev. John Smith B. 3/11/1614 and d. 1672",
     "date": "1614 - 1672",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "British / Norwegian-British",
@@ -1164,8 +1164,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Redman Garbh O'Byrne",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-FTD47594",
     "branch": "Swedish / Scandinavian",
@@ -1173,8 +1173,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Vete Hansen Tindlund 1711-1780 Råde íFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y132108",
     "branch": "Swedish / Scandinavian",
@@ -1183,7 +1183,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Derrickson",
     "date": "b. 1788 and d. 1868",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FT237258",
     "branch": "Swedish / Scandinavian",
@@ -1191,8 +1191,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Frodi IV Fridleifsson 479-548",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-BY3451",
     "branch": "Swedish / Scandinavian",
@@ -1209,8 +1209,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ole Torgersen S. Berg c 1662-1714 Gausdal OPL",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1218,8 +1218,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Theodor Hansen ca.1840-1900 ukjent HED",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1228,7 +1228,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Pierre Lemoyne",
     "date": "né v.1593",
-    "place": null,
+    "place": "",
     "country": "France",
     "associatedSNP": "R-BY127095",
     "branch": "Swedish / Scandinavian",
@@ -1236,8 +1236,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Robert Anderson b 1761",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-Y81777",
     "branch": "Swedish / Scandinavian",
@@ -1245,8 +1245,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anderson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FTB82877",
     "branch": "Swedish / Scandinavian",
@@ -1255,7 +1255,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Robert Anderson",
     "date": "b. 1641 d. 1712",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FTB63675",
     "branch": "Swedish / Scandinavian",
@@ -1272,8 +1272,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Olav Einarson Haugland 1596-1642 Kvinnherad HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT50095",
     "branch": "Norwegian",
@@ -1281,8 +1281,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Erik Derick Michaelsson 1620-1705",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT173914",
     "branch": "Swedish / Scandinavian",
@@ -1291,7 +1291,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Hermann Friedrich Muller",
     "date": "b. 1838",
-    "place": null,
+    "place": "",
     "country": "Germany",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1308,8 +1308,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Mueller",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Germany",
     "associatedSNP": "R-Y49713",
     "branch": "Swedish / Scandinavian",
@@ -1317,8 +1317,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anthon J Rummelhoff Tronstrøm 1798 -1873 TRí. íFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT134471",
     "branch": "Swedish / Scandinavian",
@@ -1336,7 +1336,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Robert Anderson b.1641 d.1712",
     "date": "1641 - 1712",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FTB63675",
     "branch": "Swedish / Scandinavian",
@@ -1346,15 +1346,15 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
     "name": "Robert Anderson",
     "date": "b. 1641",
     "place": "New Kent, VA",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-Y154970",
     "branch": "Swedish / Scandinavian",
     "kit": "911840"
   },
   {
     "name": "Erich Knutsen Romarheim 1580-1670 Lindås HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-A6292",
     "branch": "Norwegian",
@@ -1363,7 +1363,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Notto Salvesen Hornnes d. 1637 Hornnes AGD",
     "date": "1637",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT49911",
     "branch": "Norwegian",
@@ -1371,8 +1371,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Mikkel Olssøn c 1535-1595 Botne VFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT177260",
     "branch": "Swedish / Scandinavian",
@@ -1380,8 +1380,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Anders Wilhelm Nyberg",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT61088",
     "branch": "Swedish / Scandinavian",
@@ -1390,7 +1390,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Lars Andersson",
     "date": "b. 1793 Dagsås (N) d. 1862",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y46114",
     "branch": "Swedish / Scandinavian",
@@ -1399,7 +1399,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Lars Esbjörnsson",
     "date": "b.1719 and d. 1766 Varnhem",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY38880",
     "branch": "Swedish / Scandinavian",
@@ -1408,7 +1408,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Andersson",
     "date": "b. 1833 Sweden d. 1915",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1417,7 +1417,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Olof Jonsson",
     "date": "b. 1783 and d. 1851",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT134471",
     "branch": "Swedish / Scandinavian",
@@ -1426,7 +1426,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Henry Tenney",
     "date": "b. about 1510 and d. about 1558",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1435,7 +1435,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Arne Sternlind Eriksson b. 1912 d. 1983",
     "date": "1912 - 1983",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y46114",
     "branch": "Swedish / Scandinavian",
@@ -1453,7 +1453,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Henry Tenney",
     "date": "b. 1510 and d. 1558",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY19601",
     "branch": "Swedish / Scandinavian",
@@ -1461,8 +1461,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Jon Hansson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1471,7 +1471,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Edvard Pettersson Andersson",
     "date": "1895-1977",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY38880",
     "branch": "Swedish / Scandinavian",
@@ -1480,7 +1480,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Steffen Simonsen b. About 1700",
     "date": "1700",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-BY112843",
     "branch": "Swedish / Scandinavian",
@@ -1488,9 +1488,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Jóhannes Pedersen ca 1665 Svartá",
-    "date": null,
+    "date": "",
     "place": "Saksun Faroe Isl",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-Y84777",
     "branch": "Norwegian",
     "kit": "447559"
@@ -1507,7 +1507,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Ingel Nilsson",
     "date": "1700-1761",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-FT61088",
     "branch": "Swedish / Scandinavian",
@@ -1515,7 +1515,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Knut Jonsson Eikrem c1618",
-    "date": null,
+    "date": "",
     "place": "Vanylven MRO",
     "country": "Norway",
     "associatedSNP": "L238",
@@ -1524,8 +1524,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Mons Sjursen Bruvik 1653-1723 Osterøy HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -1542,7 +1542,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "berg",
-    "date": null,
+    "date": "",
     "place": "ístergötland",
     "country": "Sweden",
     "associatedSNP": "R-FT61097",
@@ -1552,7 +1552,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "William McQuesten",
     "date": "1680 - 1767",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-A6289",
     "branch": "Swedish / Scandinavian",
@@ -1560,8 +1560,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Richard Turner Ashman",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United States",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -1569,8 +1569,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "John & Isabela Crelon McCuiston 1674 NI",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY221268",
     "branch": "Swedish / Scandinavian",
@@ -1579,7 +1579,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Nicolas Letellier",
     "date": "né 1730 Pont-Audemer",
-    "place": null,
+    "place": "",
     "country": "France",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -1588,7 +1588,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "William Jacob McQuiston",
     "date": "b. 1787 and d.1872",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -1597,7 +1597,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Quest",
     "date": "b.1777 and d.1870",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY19595",
     "branch": "Swedish / Scandinavian",
@@ -1605,8 +1605,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "John McCuiston 1674-1715",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-FT339833",
     "branch": "Swedish / Scandinavian",
@@ -1615,17 +1615,17 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Scarffe",
     "date": "b.1776 Isle of Man d. Isle of Man",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY65599",
     "branch": "Swedish / Scandinavian",
     "kit": "199239"
   },
   {
     "name": "Donald McScarff c1610-c1680 Ballaskerro",
-    "date": null,
+    "date": "",
     "place": "Lonan",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-BY65599",
     "branch": "Swedish / Scandinavian",
     "kit": "IN141206"
@@ -1650,8 +1650,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "George Tolson 1560/1613 Engl",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT415988",
     "branch": "Norwegian",
@@ -1660,7 +1660,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Tolson",
     "date": "b. 1535 and d. 1603",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT415988",
     "branch": "Norwegian",
@@ -1668,8 +1668,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Gunnar Torleivson Vangestad 1604-1674 Flesberg BUS",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FTC59953",
     "branch": "Norwegian",
@@ -1677,8 +1677,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Tjøstolv Gunnulvs. S. Tråen 1535-1589 Rollag BUS",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FTC59953",
     "branch": "Norwegian",
@@ -1686,8 +1686,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Patrick Anderson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTB6312",
     "branch": "Norwegian",
@@ -1696,7 +1696,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Patrick Anderson",
     "date": "b. 1680",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTB6312",
     "branch": "Norwegian",
@@ -1704,8 +1704,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Tjøstov Kaasen 1685-1730 Skafså TEL",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y109045",
     "branch": "Norwegian",
@@ -1713,7 +1713,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Tjøstov Kaasen 1685-1730 Skafså",
-    "date": null,
+    "date": "",
     "place": "TEL",
     "country": "Norway",
     "associatedSNP": "R-FT85816",
@@ -1722,8 +1722,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Clemmet Eirikson Laugesgard (Orm) 1550-1640 ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y29865",
     "branch": "Norwegian",
@@ -1731,8 +1731,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Tore ívre Børva b 1519 Ullensvang HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-Y29865",
     "branch": "Norwegian",
@@ -1741,7 +1741,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Aaron Mincey",
     "date": "b 1803 and d. 1890",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY18418",
     "branch": "British / Norwegian-British",
@@ -1750,8 +1750,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Abraham Minshew b.1739 and d.1799",
     "date": "1739 - 1799",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-Y68225",
     "branch": "British / Norwegian-British",
     "kit": "1020646"
@@ -1760,7 +1760,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
     "name": "Abraham Minchew",
     "date": "b 1773",
     "place": "d. 1853",
-    "country": null,
+    "country": "",
     "associatedSNP": "R-BY130708",
     "branch": "British / Norwegian-British",
     "kit": "268943"
@@ -1768,7 +1768,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Jefferson Mercer b. 1855 d. 1917",
     "date": "1855 - 1917",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "L238",
     "branch": "British / Norwegian-British",
@@ -1777,7 +1777,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Abraham Minsey",
     "date": "b.c. 1737 and d. 1799",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-Y68225",
     "branch": "British / Norwegian-British",
@@ -1804,7 +1804,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Irvine",
     "date": "b. 1809 and d. 1892",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTG10290",
     "branch": "Swedish / Scandinavian",
@@ -1813,7 +1813,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "William Irvine b.1731",
     "date": "1731",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTG10290",
     "branch": "Swedish / Scandinavian",
@@ -1822,8 +1822,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Joseph Horner",
     "date": "b. ca 1730",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY29117",
     "branch": "Swedish / Scandinavian",
     "kit": "722622"
@@ -1831,7 +1831,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Joseph Horner",
     "date": "b. 1789 and d. 1869",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY29117",
     "branch": "Swedish / Scandinavian",
@@ -1840,7 +1840,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Horner",
     "date": "b. ca 1609",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY29117",
     "branch": "Swedish / Scandinavian",
@@ -1849,8 +1849,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Henry William Horner",
     "date": "b. 1815 and d. 1891",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY127933",
     "branch": "Swedish / Scandinavian",
     "kit": "N160242"
@@ -1858,7 +1858,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Joseph Horner",
     "date": "b.1750 and d. 1818",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-Y168340",
     "branch": "Swedish / Scandinavian",
@@ -1867,8 +1867,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jonathan Buck",
     "date": "b. 1755 in Pennsylvania d. 1831 Tn",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
     "kit": "B3304"
@@ -1876,7 +1876,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Horner",
     "date": "b. 1786 and d. 1872",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY127933",
     "branch": "Swedish / Scandinavian",
@@ -1885,7 +1885,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John J. O'Dea",
     "date": "b. 1880 and d. 1925",
-    "place": null,
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-FT162479",
     "branch": "Swedish / Scandinavian",
@@ -1893,8 +1893,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "O'Brien 1814",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-FT162479",
     "branch": "Swedish / Scandinavian",
@@ -1902,16 +1902,16 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "SarÄ±oÄlan EbülhayÄ±r village Kayseri / Türkiye",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-FTB79841",
     "branch": "Swedish / Scandinavian",
     "kit": "BP54227"
   },
   {
     "name": "Michael Tyner 1782-1846 Enniskeane",
-    "date": null,
+    "date": "",
     "place": "Cork",
     "country": "Ireland",
     "associatedSNP": "R-Z2247",
@@ -1921,7 +1921,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "George Tyner",
     "date": "b. 1807 and d. 1899",
-    "place": null,
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-BY25451",
     "branch": "Swedish / Scandinavian",
@@ -1929,7 +1929,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Robert Stuart married 5 Nov 1735",
-    "date": null,
+    "date": "",
     "place": "Charlton, Kent E",
     "country": "United Kingdom",
     "associatedSNP": "R-V1349",
@@ -1939,7 +1939,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Charles Alexander b.1781",
     "date": "1781",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -1948,8 +1948,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Spencer Hughes b.1800 VA",
     "date": "d. 1864 TN",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-CTS11638",
     "branch": "Swedish / Scandinavian",
     "kit": "228256"
@@ -1957,7 +1957,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Malachi Mills",
     "date": "b. 1849 & d. 1941",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-Z2247",
     "branch": "Swedish / Scandinavian",
@@ -1965,8 +1965,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Alexander",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-CTS11638",
     "branch": "Swedish / Scandinavian",
@@ -1974,8 +1974,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ernest Harold Betts",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Canada",
     "associatedSNP": "R-FT201226",
     "branch": "Swedish / Scandinavian",
@@ -1984,7 +1984,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Salmon",
     "date": "b. 1693 UK and d. 1749 CT US",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FT201226",
     "branch": "Swedish / Scandinavian",
@@ -1992,8 +1992,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "David E Graham 1816-1898",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-Z2245",
     "branch": "Swedish / Scandinavian",
@@ -2002,7 +2002,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Robert Holmes b. abt 1735 d. aft 1800 PA",
     "date": "1735 - 1800",
-    "place": null,
+    "place": "",
     "country": "Ireland",
     "associatedSNP": "R-BY41522",
     "branch": "Swedish / Scandinavian",
@@ -2011,8 +2011,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Joseph W Burgett b.1813 d. 1897",
     "date": "1813 - 1897",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
     "kit": "660453"
@@ -2020,7 +2020,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Leonhard Weidner b.1560",
     "date": "1560",
-    "place": null,
+    "place": "",
     "country": "Germany",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -2028,8 +2028,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Peder Kjeldsen Mørch c1510-c1580 Egholm Aalborg",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -2038,7 +2038,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Henry Lancaster b.1657 - d. 1717",
     "date": "1657 - 1717",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FTB775",
     "branch": "Swedish / Scandinavian",
@@ -2046,8 +2046,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Henry Lancaster b ABT 1640-1657 D 1717",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -2056,7 +2056,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jehan Siroye",
     "date": "b. abt 1520",
-    "place": null,
+    "place": "",
     "country": "France",
     "associatedSNP": "R-FTB1210",
     "branch": "Swedish / Scandinavian",
@@ -2074,7 +2074,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Ludwik Winiarski b. 1845 Sabnie d. 1905",
     "date": "1845 - 1905",
-    "place": null,
+    "place": "",
     "country": "Poland",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -2083,7 +2083,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Ole Jensen",
     "date": "b. abt. 1685 d. 1740",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-BY96530",
     "branch": "Swedish / Scandinavian",
@@ -2091,7 +2091,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Daniel Grouazel",
-    "date": null,
+    "date": "",
     "place": "Fougères",
     "country": "France",
     "associatedSNP": "L238",
@@ -2110,7 +2110,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Pehr Nilsson",
     "date": "1722-1783 Eda (S)",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY41532",
     "branch": "Swedish / Scandinavian",
@@ -2118,8 +2118,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Jørgen Peders Onarheim c1520-c1580 Tysnes HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY168812",
     "branch": "Swedish / Scandinavian",
@@ -2128,7 +2128,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Gustaf Larsson b. 1768 d. 1823",
     "date": "1768 - 1823",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY103046",
     "branch": "Swedish / Scandinavian",
@@ -2137,7 +2137,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jesper",
     "date": "b c1700",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-BY114944",
     "branch": "Swedish / Scandinavian",
@@ -2146,7 +2146,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Anders Andersson",
     "date": "b. 1804 and d. 1880",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY19600",
     "branch": "Swedish / Scandinavian",
@@ -2155,7 +2155,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johann Petterssen",
     "date": "b. 1614 and d. unknown",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-BY3516",
     "branch": "Swedish / Scandinavian",
@@ -2172,8 +2172,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ola Kristoffersen Tangen 1799--1878 Trøgstad íFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-A6292",
     "branch": "Norwegian",
@@ -2191,7 +2191,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Hans Christian Lassen Hinnerup",
     "date": "b. 1746 and d. 183",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-Y98267",
     "branch": "Norwegian",
@@ -2200,7 +2200,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Robert Robertson",
     "date": "b. 1760",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT71850",
     "branch": "Norwegian",
@@ -2209,7 +2209,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Henderson",
     "date": "(1741- 1835)",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT71850",
     "branch": "Norwegian",
@@ -2218,7 +2218,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Gulbrand Pedersen Gylterud",
     "date": "1675/1736",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT78754",
     "branch": "Norwegian",
@@ -2226,8 +2226,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Grover Chester JOHNSON 4 Jan 1892- 22 May 1967",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY76170",
     "branch": "Norwegian",
@@ -2236,7 +2236,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Peder Olsen Jåtun",
     "date": "b. 1580",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT65632",
     "branch": "Norwegian",
@@ -2244,8 +2244,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Stephen Ravnanger Simonsen 1671-1741 Bergen HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY38750",
     "branch": "British / Norwegian-British",
@@ -2254,7 +2254,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Torkild Gundersen b. 1806 Skiptvet íFO",
     "date": "1806",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-FT116774",
     "branch": "Swedish / Scandinavian",
@@ -2262,8 +2262,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Halvard Haagensen Rønnild c1580-1660 Skjeberg íFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4675",
     "branch": "Swedish / Scandinavian",
@@ -2271,8 +2271,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Amund Sørensson Strøm c. 1709-1769 Aremark íFO",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4675",
     "branch": "Swedish / Scandinavian",
@@ -2281,7 +2281,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Pähr Jansson b. 1676 d. 1741 íttersta",
     "date": "1676 - 1741",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2289,8 +2289,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Ivar Arneson Børve c 1495-bef 1556 Ullensvang HRD",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2299,7 +2299,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johannes Larsson",
     "date": "b. 1805",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2307,8 +2307,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Jonas Andersson",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2316,8 +2316,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Bjørn Pederson Askvik 1751 - 1812 Hjelmeland ROG",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2325,8 +2325,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Samuel FRANCIS 1810-1882",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-FT10034",
     "branch": "Swedish / Scandinavian",
@@ -2334,17 +2334,17 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Oliver Porter McCuistion b 1828 d 26 April 1861",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-FT339833",
     "branch": "Swedish / Scandinavian",
     "kit": "262183"
   },
   {
     "name": "Fantoni- Castelpoggio (MS)",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Italy",
     "associatedSNP": "R-Z2247",
     "branch": "Swedish / Scandinavian",
@@ -2353,7 +2353,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Sund",
     "date": "born c. 1895",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "L238",
     "branch": "Norwegian",
@@ -2361,8 +2361,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Thomas de Minshall",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY4683",
     "branch": "British / Norwegian-British",
@@ -2371,7 +2371,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jeremiah Summers b. 1782 d. 1850",
     "date": "1782 - 1850",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY4683",
     "branch": "Swedish / Scandinavian",
@@ -2388,7 +2388,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Lasse Nilsson",
-    "date": null,
+    "date": "",
     "place": "Tveita, b. 1744 Hyllestad Sogn SFJ",
     "country": "Norway",
     "associatedSNP": "L238",
@@ -2398,7 +2398,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Viljo Helin",
     "date": "b. 1900 and d. 1949",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-BY41532",
     "branch": "Swedish / Scandinavian",
@@ -2407,7 +2407,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jens Christen Sørensen",
     "date": "b. abt 1680 d. ?",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-Y11662",
     "branch": "Swedish / Scandinavian",
@@ -2416,7 +2416,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Alfred Johansson b.1871",
     "date": "1871",
-    "place": null,
+    "place": "",
     "country": "Sweden",
     "associatedSNP": "R-Y88227",
     "branch": "Norwegian",
@@ -2424,8 +2424,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Matts Hansson Bro 1704-1756 Malax Finland",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-Y61271",
     "branch": "Norwegian",
@@ -2434,7 +2434,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Bill",
     "date": "b.1702 and d. 1779",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY18415",
     "branch": "British / Norwegian-British",
@@ -2443,7 +2443,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Magnus Olsen Reichelt",
     "date": "b. 1894 and d. 1971",
-    "place": null,
+    "place": "",
     "country": "Norway",
     "associatedSNP": "R-ZS3773",
     "branch": "Swedish / Scandinavian",
@@ -2452,8 +2452,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Olof Björnsson",
     "date": "1701 - 1765",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-BY4675",
     "branch": "Swedish / Scandinavian",
     "kit": "438462"
@@ -2461,7 +2461,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Franz Frühwirth",
     "date": "b. 1801 and d. 1874",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-BY2408",
     "branch": "Swedish / Scandinavian",
@@ -2479,8 +2479,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "SAINT LOUIS",
     "date": "b. 1795 d. 1880",
-    "place": null,
-    "country": null,
+    "place": "",
+    "country": "",
     "associatedSNP": "R-FT10034",
     "branch": "Swedish / Scandinavian",
     "kit": "B648829"
@@ -2488,7 +2488,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Christian Weishampel",
     "date": "b. 1770 and d. 1810",
-    "place": null,
+    "place": "",
     "country": "Poland",
     "associatedSNP": "R-V1349",
     "branch": "Swedish / Scandinavian",
@@ -2497,7 +2497,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Thomas Lawrence",
     "date": "b. 1589 and d. 1625",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-Z2247",
     "branch": "Swedish / Scandinavian",
@@ -2505,8 +2505,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "William Stanton Leuty",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY58798",
     "branch": "Swedish / Scandinavian",
@@ -2514,8 +2514,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "ÐÐ¸ÐºÐ¸ÑÐ° ÐÐ°Ð´ÑÐ°Ð³Ð° b1924",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-Z2247",
     "branch": "Swedish / Scandinavian",
@@ -2523,9 +2523,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Robert Comfort",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "R-Y198401",
     "branch": "Swedish / Scandinavian",
     "kit": "804381"
@@ -2533,7 +2533,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Jürgen Janssen Schipper",
     "date": "b. 1823 and d. 1909",
-    "place": null,
+    "place": "",
     "country": "Germany",
     "associatedSNP": "R-Y198401",
     "branch": "Swedish / Scandinavian",
@@ -2543,7 +2543,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
     "name": "Hans Otto Riedi",
     "date": "1682-1700",
     "place": "Filisur, Graubünden",
-    "country": null,
+    "country": "",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
     "kit": "149005"
@@ -2551,7 +2551,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Eloy Santiago Garcia b. 1926 and d. 2014",
     "date": "1926 - 2014",
-    "place": null,
+    "place": "",
     "country": "United States",
     "associatedSNP": "R-FTB73316",
     "branch": "Swedish / Scandinavian",
@@ -2559,8 +2559,8 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "Thomas Tozier",
-    "date": null,
-    "place": null,
+    "date": "",
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY178002",
     "branch": "Swedish / Scandinavian",
@@ -2569,7 +2569,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "James Dryver d. 1568 father of Benjamin Robert",
     "date": "1568",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "R-BY178002",
     "branch": "Swedish / Scandinavian",
@@ -2578,7 +2578,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johann Martin Specht",
     "date": "b.1757 Muckwar",
-    "place": null,
+    "place": "",
     "country": "Germany",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
@@ -2596,7 +2596,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Johan Leander Salo b. 1872 kauhajoki fathers fathe",
     "date": "1872",
-    "place": null,
+    "place": "",
     "country": "Finland",
     "associatedSNP": "R-L151",
     "branch": "Swedish / Scandinavian",
@@ -2614,7 +2614,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "Morten Hegelund",
     "date": "1505-1574",
-    "place": null,
+    "place": "",
     "country": "Denmark",
     "associatedSNP": "R-P312",
     "branch": "Swedish / Scandinavian",
@@ -2640,9 +2640,9 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   },
   {
     "name": "George Maxted",
-    "date": null,
-    "place": null,
-    "country": null,
+    "date": "",
+    "place": "",
+    "country": "",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
     "kit": "B126324"
@@ -2650,7 +2650,7 @@ export const EXTENDED_ANCESTORS: AncestorRecord[] = [
   {
     "name": "John Page",
     "date": "b1756",
-    "place": null,
+    "place": "",
     "country": "United Kingdom",
     "associatedSNP": "L238",
     "branch": "Swedish / Scandinavian",
