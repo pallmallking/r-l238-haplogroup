@@ -93,7 +93,7 @@ export default function Home() {
               </h1>
               <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-6 font-light">
                 Explore the complete genetic history and genealogical lineages of the 
-                <strong className="font-semibold text-white"> R1b-L238</strong> haplogroup. Traced through 18 highly detailed, researcher-curated SNP trees from 2500 BCE to 2026 CE.
+                <strong className="font-semibold text-white"> R1b-L238</strong> haplogroup. Traced through 17 highly detailed SNP trees from 2500 BCE to 2026 CE, created by researcher <strong>Timo Rossi</strong>.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button 
@@ -203,7 +203,7 @@ export default function Home() {
                 Detailed SNP Tree Gallery
               </h2>
               <p className="text-xs text-slate-500 font-light">
-                Browse, explore, and download high-resolution researcher-curated SNP tree charts.
+                Browse, explore, and download high-resolution SNP tree charts created by <strong>Timo Rossi</strong>.
               </p>
             </div>
 
@@ -360,9 +360,14 @@ export default function Home() {
                           <CardTitle className="text-lg font-serif font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                             {img.title}
                           </CardTitle>
-                          <CardDescription className="text-xs text-slate-500 mt-1 font-mono flex items-center gap-1.5">
-                            <Calendar className="h-3 w-3" />
-                            <span>Version: {img.version}</span>
+                          <CardDescription className="text-xs text-slate-500 mt-1 font-mono flex flex-col gap-1">
+                            <span className="flex items-center gap-1.5">
+                              <Calendar className="h-3 w-3" />
+                              <span>Version: {img.version}</span>
+                            </span>
+                            <span className="text-[10px] text-slate-400">
+                              Created by: <strong>Timo Rossi</strong>
+                            </span>
                           </CardDescription>
                         </div>
                       </div>
@@ -461,9 +466,14 @@ export default function Home() {
                             }`}>
                               {img.branch}
                             </Badge>
-                            <span className="text-xs text-slate-500 font-mono flex items-center gap-1">
-                              <Calendar className="h-3 w-3" />
-                              Version: {img.version}
+                            <span className="text-xs text-slate-500 font-mono flex flex-col items-end gap-0.5">
+                              <span className="flex items-center gap-1">
+                                <Calendar className="h-3 w-3" />
+                                Version: {img.version}
+                              </span>
+                              <span className="text-[10px] text-slate-400">
+                                Created by: <strong>Timo Rossi</strong>
+                              </span>
                             </span>
                           </div>
                           
@@ -658,7 +668,7 @@ export default function Home() {
                 </div>
                 <div className="prose prose-slate text-slate-600 text-xs leading-relaxed space-y-3 font-light">
                   <p>
-                    The SNP trees in this archive are structured based on cladistic principles of paternal (Y-DNA) inheritance:
+                    The SNP trees in this archive, compiled and maintained by researcher <strong>Timo Rossi</strong>, are structured based on cladistic principles of paternal (Y-DNA) inheritance:
                   </p>
                   <ul className="list-disc pl-4 space-y-1.5">
                     <li>
@@ -711,7 +721,7 @@ export default function Home() {
                 Credits & References
               </h4>
               <p className="text-xs leading-relaxed font-light mb-2">
-                All SNP trees are based on FamilyTreeDNA's Haplotree and compiled by dedicated genetic genealogy researchers.
+                All SNP trees are based on FamilyTreeDNA's Haplotree, researched and created by <strong>Timo Rossi</strong>.
               </p>
               <div className="text-[10px] text-slate-500 font-mono">
                 Latest updates integrated: May 4, 2026
@@ -729,7 +739,7 @@ export default function Home() {
                 <ExternalLink className="h-3 w-3" />
               </a>
               <span className="text-slate-800">|</span>
-              <span className="text-slate-500">Curated by FJE & Genetic Genealogists</span>
+              <span className="text-slate-500">SNP Trees created by Timo Rossi • Curated by FJE</span>
             </div>
           </div>
         </div>
