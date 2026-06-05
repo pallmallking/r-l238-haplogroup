@@ -205,23 +205,7 @@ export const SNP_IMAGES: SNPImage[] = [
     description: 'The comprehensive chart of the major Scandinavian subclade BY4675 (500 CE). This tree is particularly famous for tracing the "Derickson" family back to Olle Diedricksson (1639-1695), a Swedish settler in the historic "New Sweden Colony" in Delaware/New Jersey, USA.',
     notes: 'Highlights "NEW!" Anders Erik Fallgren line and "19th Century entry to Finland" (Hannu Vainikainen line).'
   },
-  {
-    id: 'scandinavian-by4675-jun-2025',
-    title: 'Scandinavian Branch: BY4675 (Early)',
-    branch: 'Swedish / Scandinavian',
-    date: 'June 21, 2025',
-    version: 'June 21st, 2025',
-    path: '/manus-storage/510909388_10163217185083910_1731698812357781638_n_2fff5ccc.jpg',
-    keySNPs: ['BY4675', 'Y101604', 'Y81319', 'Y100259', 'Y132108', 'BY155681', 'FT177260', 'FT173914'],
-    keyAncestors: [
-      { name: 'Olle Diedricksson aka Derickson', date: '1639-1695', place: 'Sweden / New Sweden Colony', country: 'Sweden' },
-      { name: 'John Derrickson', date: 'b. 1788', place: 'Gloucester County, NJ', country: 'USA' },
-      { name: 'John Penrose Derickson', date: 'b. 1823', place: 'Delaware', country: 'USA' }
-    ],
-    countries: ['Sweden', 'Norway', 'Finland', 'USA'],
-    description: 'An earlier, less-populated version of the BY4675 branch from June 2025. It serves as an excellent comparison point showing how genetic genealogy researchers added several new lines (like the Fallgren and Vainikainen lines) over the subsequent three months.',
-    notes: 'Focuses heavily on the New Sweden Colony "Derickson" cluster.'
-  },
+
   {
     id: 'scandinavian-a8150',
     title: 'Scandinavian Branch: A8150 - Y17456',
