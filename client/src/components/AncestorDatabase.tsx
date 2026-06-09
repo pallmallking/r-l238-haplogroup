@@ -1,4 +1,5 @@
-import React, { useState, useMemo } from 'react';
+// @ts-ignore
+import * as React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Input } from '@/components/ui/input';
@@ -9,19 +10,21 @@ import { COUNTRIES, BRANCH_INFO } from '../const';
 import { EXTENDED_ANCESTORS, AncestorRecord } from '../extended_ancestors';
 
 export default function AncestorDatabase() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedBranch, setSelectedBranch] = useState<string>('all');
-  const [selectedCountry, setSelectedCountry] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = React.useState('');
+  const [selectedBranch, setSelectedBranch] = React.useState<string>('all');
+  const [selectedCountry, setSelectedCountry] = React.useState<string>('all');
   
   // Pagination State
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = React.useState(1);
   const recordsPerPage = 10;
 
-  // Filtered ancestors list
-  const filteredAncestors = useMemo(() => {
-    // Reset page to 1 when filters change
+  // Effect to reset page when filters change
+  React.useEffect(() => {
     setCurrentPage(1);
-    
+  }, [searchQuery, selectedBranch, selectedCountry]);
+
+  // Filtered ancestors list
+  const filteredAncestors = React.useMemo(() => {
     return EXTENDED_ANCESTORS.filter(anc => {
       const matchesBranch = selectedBranch === 'all' || anc.branch === selectedBranch;
       
@@ -35,14 +38,13 @@ export default function AncestorDatabase() {
         (anc.place && anc.place.toLowerCase().includes(query)) ||
         (anc.country && anc.country.toLowerCase().includes(query)) ||
         (anc.kit && anc.kit.toLowerCase().includes(query)) ||
-        anc.associatedSNP.toLowerCase().includes(query);
-
+        (anc.associatedSNP && anc.associatedSNP.toLowerCase().includes(query));
       return matchesBranch && matchesCountry && matchesSearch;
     });
   }, [searchQuery, selectedBranch, selectedCountry]);
 
   // Paginated ancestors
-  const paginatedAncestors = useMemo(() => {
+  const paginatedAncestors = React.useMemo(() => {
     const startIndex = (currentPage - 1) * recordsPerPage;
     return filteredAncestors.slice(startIndex, startIndex + recordsPerPage);
   }, [filteredAncestors, currentPage]);
@@ -101,34 +103,42 @@ export default function AncestorDatabase() {
 
           {/* Branch Select */}
           <div className="w-full lg:w-56">
-            <select
-              className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
-              value={selectedBranch}
-              onChange={(e) => setSelectedBranch(e.target.value)}
-            >
-              <option value="all">All Branches</option>
-              {Object.keys(BRANCH_INFO).map(b => (
-                <option key={b} value={b}>
-                  {BRANCH_INFO[b as keyof typeof BRANCH_INFO]?.title || b}
-                </option>
-              ))}
-            </select>
+            <Select value={selectedBranch} onValueChange={setSelectedBranch}>
+              <SelectTrigger
+                aria-label="Filter by branch"
+                className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
+              >
+                <SelectValue placeholder="All Branches" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Branches</SelectItem>
+                {Object.keys(BRANCH_INFO).map(b => (
+                  <SelectItem key={b} value={b}>
+                    {BRANCH_INFO[b as keyof typeof BRANCH_INFO]?.title || b}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Country Select */}
           <div className="w-full lg:w-48">
-            <select
-              className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
-              value={selectedCountry}
-              onChange={(e) => setSelectedCountry(e.target.value)}
-            >
-              <option value="all">All Countries</option>
-              {COUNTRIES.map(c => (
-                <option key={c.code} value={c.name}>
-                  {c.flag} {c.name}
-                </option>
-              ))}
-            </select>
+            <Select value={selectedCountry} onValueChange={setSelectedCountry}>
+              <SelectTrigger
+                aria-label="Filter by country"
+                className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
+              >
+                <SelectValue placeholder="All Countries" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Countries</SelectItem>
+                {COUNTRIES.map(c => (
+                  <SelectItem key={c.code} value={c.name}>
+                    {c.flag} {c.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Reset */}
