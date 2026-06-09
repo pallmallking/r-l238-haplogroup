@@ -1,4 +1,5 @@
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import Fuse from 'fuse.js';
 import { 
   Search, 
   Dna, 
@@ -22,47 +23,75 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 // No tabs import needed since we use pure state-based buttons for conditional rendering
-import { Separator } from '@/components/ui/separator';
 import { SNP_IMAGES, BRANCH_INFO, COUNTRIES, TIMELINE_EVENTS, SNPImage } from '../const';
 import ZoomableImage from '../components/ZoomableImage';
 import LineageMap from '../components/LineageMap';
 import AncestorDatabase from '../components/AncestorDatabase';
 
 export default function Home() {
+  const [searchInput, setSearchInput] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBranch, setSelectedBranch] = useState<string>('all');
   const [selectedCountry, setSelectedCountry] = useState<string>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [activeTab, setActiveTab] = useState<'trees' | 'timeline' | 'about'>('trees');
 
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      setSearchQuery(searchInput.trim().toLowerCase());
+    }, 300);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [searchInput]);
+
   // Handle branch filters
   const branches = useMemo(() => {
     return ['all', ...Object.keys(BRANCH_INFO)];
   }, []);
 
+  const searchableImages = useMemo(() => {
+    return SNP_IMAGES.map((img) => {
+      const ancestorSearchText = img.keyAncestors
+        .map((ancestor) => `${ancestor.name} ${ancestor.place ?? ''} ${ancestor.country ?? ''}`)
+        .join(' ');
+
+      return {
+        ...img,
+        countrySet: new Set(img.countries),
+        searchBlob: `${img.title} ${img.description} ${img.keySNPs.join(' ')} ${ancestorSearchText}`.toLowerCase(),
+      };
+    });
+  }, []);
+
+  const searchIndex = useMemo(() => {
+    return new Fuse(searchableImages, {
+      keys: ['title', 'description', 'keySNPs', 'keyAncestors.name', 'keyAncestors.place', 'keyAncestors.country'],
+      threshold: 0.35,
+      ignoreLocation: true,
+      minMatchCharLength: 2,
+    });
+  }, [searchableImages]);
+
   // Filtered SNP Images
   const filteredImages = useMemo(() => {
-    return SNP_IMAGES.filter(img => {
+    const branchAndCountryFiltered = searchableImages.filter((img) => {
       const matchesBranch = selectedBranch === 'all' || img.branch === selectedBranch;
-      
-      const matchesCountry = selectedCountry === 'all' || img.countries.includes(selectedCountry);
-      
-      const query = searchQuery.toLowerCase().trim();
-      const matchesSearch = !query || 
-        img.title.toLowerCase().includes(query) ||
-        img.description.toLowerCase().includes(query) ||
-        img.keySNPs.some(snp => snp.toLowerCase().includes(query)) ||
-        img.keyAncestors.some(anc => 
-          anc.name.toLowerCase().includes(query) || 
-          (anc.place && anc.place.toLowerCase().includes(query)) ||
-          (anc.country && anc.country.toLowerCase().includes(query))
-        );
-
-      return matchesBranch && matchesCountry && matchesSearch;
+      const matchesCountry = selectedCountry === 'all' || img.countrySet.has(selectedCountry);
+      return matchesBranch && matchesCountry;
     });
-  }, [searchQuery, selectedBranch, selectedCountry]);
+
+    if (!searchQuery) {
+      return branchAndCountryFiltered;
+    }
+
+    const fuzzyMatchIds = new Set(searchIndex.search(searchQuery).map((result) => result.item.id));
+    return branchAndCountryFiltered.filter(
+      (img) => fuzzyMatchIds.has(img.id) || img.searchBlob.includes(searchQuery),
+    );
+  }, [searchIndex, searchQuery, searchableImages, selectedBranch, selectedCountry]);
 
   const handleResetFilters = () => {
+    setSearchInput('');
     setSearchQuery('');
     setSelectedBranch('all');
     setSelectedCountry('all');
@@ -217,8 +246,8 @@ export default function Home() {
                     <Input
                       placeholder="Search by SNP (e.g., BY4675, Y10827), ancestor name, country, or location..."
                       className="pl-10 h-12 border-slate-200 rounded-lg focus-visible:ring-blue-500 bg-slate-50/50"
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
+                      value={searchInput}
+                      onChange={(e) => setSearchInput(e.target.value)}
                     />
                   </div>
 
@@ -319,7 +348,7 @@ export default function Home() {
               <div>
                 Showing {filteredImages.length} of {SNP_IMAGES.length} SNP Trees
               </div>
-              {(searchQuery || selectedBranch !== 'all' || selectedCountry !== 'all') && (
+              {(searchInput || selectedBranch !== 'all' || selectedCountry !== 'all') && (
                 <Button 
                   variant="link" 
                   className="h-auto p-0 text-xs text-blue-600 font-mono"
@@ -728,7 +757,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Separator className="bg-slate-800 mb-6" />
+          <div className="bg-slate-800 h-px w-full mb-6" />
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-mono">
             <div>
               © 2026 R1b-L238 Haplogroup Project. All Rights Reserved.
