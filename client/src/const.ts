@@ -1,3 +1,12 @@
+// Auth helper
+export function getLoginUrl(returnPath?: string): string {
+  const origin = typeof window !== 'undefined' ? window.location.origin : '';
+  const state = encodeURIComponent(JSON.stringify({ origin, returnPath: returnPath || '/' }));
+  const portalUrl = import.meta.env.VITE_OAUTH_PORTAL_URL || '';
+  const appId = import.meta.env.VITE_APP_ID || '';
+  return `${portalUrl}/oauth/authorize?app_id=${appId}&state=${state}`;
+}
+
 export interface SNPImage {
   id: string;
   title: string;
