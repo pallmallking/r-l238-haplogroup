@@ -147,6 +147,16 @@ export default function Home() {
                   <Clock className="mr-1.5 h-4 w-4" />
                   View Timeline
                 </Button>
+                <a 
+                  href="/manus-storage/r-l238-haplogroup-catalog_3b7443c1.pdf" 
+                  download="R1b-L238_Haplogroup_Catalog_Timo_Rossi.pdf"
+                  className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg px-5 py-2 text-sm font-medium transition-colors"
+                >
+                  <svg className="mr-1.5 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  Download PDF Catalog
+                </a>
               </div>
             </div>
 
@@ -762,7 +772,12 @@ export default function Home() {
             <div>
               © 2026 R1b-L238 Haplogroup Project. All Rights Reserved.
             </div>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4 justify-center md:justify-end">
+              <a href="/manus-storage/r-l238-haplogroup-catalog_3b7443c1.pdf" download="R1b-L238_Haplogroup_Catalog_Timo_Rossi.pdf" className="hover:text-white transition-colors inline-flex items-center gap-1">
+                Download PDF Catalog
+                <ExternalLink className="h-3 w-3" />
+              </a>
+              <span className="text-slate-800">|</span>
               <a href="https://www.familytreedna.com/groups/r1b-l238/activity-feed" target="_blank" rel="noreferrer" className="hover:text-white transition-colors inline-flex items-center gap-1">
                 FTDNA Project Group
                 <ExternalLink className="h-3 w-3" />
