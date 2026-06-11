@@ -16,7 +16,8 @@ import {
   TrendingUp, 
   ChevronRight,
   ExternalLink,
-  BookOpen
+  BookOpen,
+  GitBranch
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -27,6 +28,7 @@ import { SNP_IMAGES, BRANCH_INFO, COUNTRIES, TIMELINE_EVENTS, SNPImage } from '.
 import ZoomableImage from '../components/ZoomableImage';
 import LineageMap from '../components/LineageMap';
 import AncestorDatabase from '../components/AncestorDatabase';
+import Changelog from '../components/Changelog';
 
 export default function Home() {
   const [searchInput, setSearchInput] = useState('');
@@ -34,7 +36,7 @@ export default function Home() {
   const [selectedBranch, setSelectedBranch] = useState<string>('all');
   const [selectedCountry, setSelectedCountry] = useState<string>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
-  const [activeTab, setActiveTab] = useState<'trees' | 'timeline' | 'about'>('trees');
+  const [activeTab, setActiveTab] = useState<'trees' | 'timeline' | 'changelog' | 'about'>('trees');
 
   useEffect(() => {
     const timeoutId = window.setTimeout(() => {
@@ -208,6 +210,14 @@ export default function Home() {
             >
               <Clock className="mr-2 h-4 w-4" />
               Historical Timeline
+            </Button>
+            <Button
+              variant={activeTab === 'changelog' ? 'default' : 'ghost'}
+              className={`rounded-lg px-6 ${activeTab === 'changelog' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}
+              onClick={() => setActiveTab('changelog')}
+            >
+              <GitBranch className="mr-2 h-4 w-4" />
+              Changelog
             </Button>
             <Button
               variant={activeTab === 'about' ? 'default' : 'ghost'}
@@ -637,6 +647,11 @@ export default function Home() {
               ))}
             </div>
           </div>
+        )}
+
+        {/* Tab Content: Changelog */}
+        {activeTab === 'changelog' && (
+          <Changelog />
         )}
 
         {/* Tab Content: About */}

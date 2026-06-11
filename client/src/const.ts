@@ -472,6 +472,77 @@ export const COUNTRIES = [
   { code: 'IS', name: 'Iceland', flag: '🇮🇸', count: 2 }
 ];
 
+export interface ChangelogEntry {
+  date: string;
+  version: string;
+  title: string;
+  type: 'major' | 'minor' | 'data';
+  author: string;
+  changes: string[];
+}
+
+export const CHANGELOG_ENTRIES: ChangelogEntry[] = [
+  {
+    date: 'June 6, 2026',
+    version: 'v2.4.0',
+    title: 'June 2026 Tree Additions & Subclade Mapping',
+    type: 'major',
+    author: 'Timo Rossi',
+    changes: [
+      'Added "Scandinavian Branch: BY4675 Subclades (Latest)" detailing branching events at 500 CE, 600 CE, and 650 CE.',
+      'Added "Swedish & Danish Sub-Branches: Y11662 - BY4659 - BY19596" mapping Swedish, Finnish, English/American, Danish, and Norwegian lines.',
+      'Placed new member Ron Dahlgren under the BY137601 branch.',
+      'Placed new member Olavi Scherman (Finland) under the FT112257 node.'
+    ]
+  },
+  {
+    date: 'June 3, 2026',
+    version: 'v2.3.0',
+    title: 'Extended FTDNA Project Database Import',
+    type: 'data',
+    author: 'FJE & Genetic Genealogists',
+    changes: [
+      'Imported and cleaned 294 unique ancestral records directly from the FamilyTreeDNA project group database.',
+      'Integrated kit-number filtering, terminal SNP badges, and smooth client-side pagination into the directory.'
+    ]
+  },
+  {
+    date: 'May 4, 2026',
+    version: 'v2.2.0',
+    title: 'Norwegian Branch Expansion (FT49026)',
+    type: 'minor',
+    author: 'Timo Rossi',
+    changes: [
+      'Added detailed map of Norwegian-origin lines under FT49026 that migrated into Finland and Northern Sweden.',
+      'Integrated the new Finnish Lyömiö lineage under the BY4661 node.'
+    ]
+  },
+  {
+    date: 'January 29, 2026',
+    version: 'v2.1.0',
+    title: 'First L238 Branch Updates',
+    type: 'minor',
+    author: 'Timo Rossi',
+    changes: [
+      'Added the latest chart for the "First L238 Branch" incorporating new test kits and revised mutation distances.',
+      'Traced the French-Canadian Sirois line back to Jehan Siroye (b. 1520 in Avernes, France).',
+      'Mapped the Iberian Peninsular migration route leading to Mexico (Jose Antonio Garcia, b. 1738) and Texas.'
+    ]
+  },
+  {
+    date: 'July 24, 2025',
+    version: 'v1.0.0',
+    title: 'Inaugural Release of R1b-L238 Archive',
+    type: 'major',
+    author: 'Timo Rossi',
+    changes: [
+      'Launched the R1b-L238 Main SNP Tree tracing deep Bronze Age origins starting around 2593 BCE.',
+      'Mapped the primary splits into the First L238 Branch, the Continental-British Branch, and early Scandinavian lineages.',
+      'Documented ancient DNA (aDNA) matches from Etruscan tombs in Italy (380-240 BCE).'
+    ]
+  }
+];
+
 export const TIMELINE_EVENTS = [
   { year: '2593 BCE', title: 'The Genesis of L238', description: 'The R1b-L238 haplogroup emerges, likely in Central or Western Europe, as a subclade of R1b.' },
   { year: '2200 BCE', title: 'Z2247 Mutation', description: 'Major branching event in the Bronze Age, splitting early continental lines.' },
