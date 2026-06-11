@@ -84,7 +84,7 @@ export default function Home() {
       return branchAndCountryFiltered;
     }
 
-    const fuzzyMatchIds = new Set(searchIndex.search(searchQuery).map((result) => result.item.id));
+    const fuzzyMatchIds = new Set(searchIndex.search(searchQuery).map((result: any) => result.item.id));
     return branchAndCountryFiltered.filter(
       (img) => fuzzyMatchIds.has(img.id) || img.searchBlob.includes(searchQuery),
     );

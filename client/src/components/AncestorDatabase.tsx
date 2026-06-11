@@ -1,13 +1,12 @@
-// @ts-ignore
 import * as React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Search, MapPin, Calendar, Dna, Users, ChevronLeft, ChevronRight, Hash } from 'lucide-react';
+import { Search, MapPin, Calendar, Users, ChevronLeft, ChevronRight, Hash } from 'lucide-react';
 import { COUNTRIES, BRANCH_INFO } from '../const';
-import { EXTENDED_ANCESTORS, AncestorRecord } from '../extended_ancestors';
+import { EXTENDED_ANCESTORS } from '../extended_ancestors';
 
 export default function AncestorDatabase() {
   const [searchQuery, setSearchQuery] = React.useState('');
@@ -18,7 +17,7 @@ export default function AncestorDatabase() {
   const [currentPage, setCurrentPage] = React.useState(1);
   const recordsPerPage = 10;
 
-  // Effect to reset page when filters change
+  // Reset page when filters change
   React.useEffect(() => {
     setCurrentPage(1);
   }, [searchQuery, selectedBranch, selectedCountry]);
@@ -38,7 +37,8 @@ export default function AncestorDatabase() {
         (anc.place && anc.place.toLowerCase().includes(query)) ||
         (anc.country && anc.country.toLowerCase().includes(query)) ||
         (anc.kit && anc.kit.toLowerCase().includes(query)) ||
-        (anc.associatedSNP && anc.associatedSNP.toLowerCase().includes(query));
+        anc.associatedSNP.toLowerCase().includes(query);
+
       return matchesBranch && matchesCountry && matchesSearch;
     });
   }, [searchQuery, selectedBranch, selectedCountry]);
@@ -103,42 +103,34 @@ export default function AncestorDatabase() {
 
           {/* Branch Select */}
           <div className="w-full lg:w-56">
-            <Select value={selectedBranch} onValueChange={setSelectedBranch}>
-              <SelectTrigger
-                aria-label="Filter by branch"
-                className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
-              >
-                <SelectValue placeholder="All Branches" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Branches</SelectItem>
-                {Object.keys(BRANCH_INFO).map(b => (
-                  <SelectItem key={b} value={b}>
-                    {BRANCH_INFO[b as keyof typeof BRANCH_INFO]?.title || b}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <select
+              className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer"
+              value={selectedBranch}
+              onChange={(e) => setSelectedBranch(e.target.value)}
+            >
+              <option value="all">All Branches</option>
+              {Object.keys(BRANCH_INFO).map(b => (
+                <option key={b} value={b}>
+                  {BRANCH_INFO[b as keyof typeof BRANCH_INFO]?.title || b}
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Country Select */}
           <div className="w-full lg:w-48">
-            <Select value={selectedCountry} onValueChange={setSelectedCountry}>
-              <SelectTrigger
-                aria-label="Filter by country"
-                className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500"
-              >
-                <SelectValue placeholder="All Countries" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Countries</SelectItem>
-                {COUNTRIES.map(c => (
-                  <SelectItem key={c.code} value={c.name}>
-                    {c.flag} {c.name}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <select
+              className="w-full h-10 px-3 rounded-lg border border-slate-200 bg-white text-sm text-slate-700 focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer"
+              value={selectedCountry}
+              onChange={(e) => setSelectedCountry(e.target.value)}
+            >
+              <option value="all">All Countries</option>
+              {COUNTRIES.map(c => (
+                <option key={c.code} value={c.name}>
+                  {c.flag} {c.name}
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Reset */}
@@ -166,7 +158,7 @@ export default function AncestorDatabase() {
           <div className="overflow-x-auto">
             <Table>
               <TableHeader className="bg-slate-50">
-                <TableRow className="border-b border-slate-200 hover:bg-slate-50/50">
+                <TableRow className="border-b border-slate-200">
                   <TableHead className="font-mono text-[10px] uppercase tracking-wider text-slate-500 py-3.5 pl-6">Kit Number</TableHead>
                   <TableHead className="font-mono text-[10px] uppercase tracking-wider text-slate-500 py-3.5">Paternal Ancestor Name</TableHead>
                   <TableHead className="font-mono text-[10px] uppercase tracking-wider text-slate-500 py-3.5">Approx. Date</TableHead>
