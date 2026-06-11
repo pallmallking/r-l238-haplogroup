@@ -31,17 +31,12 @@ import ZoomableImage from '../components/ZoomableImage';
 import LineageMap from '../components/LineageMap';
 import AncestorDatabase from '../components/AncestorDatabase';
 import Changelog from '../components/Changelog';
+import LoginPage from './LoginPage';
 
 export default function Home() {
   const { user, loading, isAuthenticated, logout } = useAuth();
 
-  // Redirect to login if not authenticated
-  useEffect(() => {
-    if (!loading && !isAuthenticated) {
-      window.location.href = getLoginUrl();
-    }
-  }, [loading, isAuthenticated]);
-
+  // All hooks must be declared before any conditional returns
   const [searchInput, setSearchInput] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBranch, setSelectedBranch] = useState<string>('all');
@@ -109,6 +104,23 @@ export default function Home() {
     setSelectedBranch('all');
     setSelectedCountry('all');
   };
+
+  // Show loading spinner while checking auth
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="h-8 w-8 rounded-full border-2 border-blue-500 border-t-transparent animate-spin" />
+          <p className="text-slate-400 text-sm font-mono">Checking access...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show login page if not authenticated
+  if (!isAuthenticated) {
+    return <LoginPage />;
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans selection:bg-blue-100 selection:text-blue-900">
