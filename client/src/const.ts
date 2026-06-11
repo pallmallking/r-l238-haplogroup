@@ -47,6 +47,59 @@ export const BRANCH_INFO = {
 
 export const SNP_IMAGES: SNPImage[] = [
   {
+    id: 'scandinavian-by4675-jun-2026',
+    title: 'Scandinavian Branch: BY4675 Subclades (Latest)',
+    branch: 'Swedish / Scandinavian',
+    date: 'June 6, 2026',
+    version: 'June 6th, 2026',
+    path: '/manus-storage/717187302_10164869649583910_7675651894881611467_n_75abd83e.jpg',
+    keySNPs: ['BY4675', 'BY137601', 'Y101604', 'BY155681', 'BY4667', 'BY4673', 'FT177260', 'FTD61300', 'FT116774', 'ZS3773'],
+    keyAncestors: [
+      { name: 'O. Björnsson', date: '1701-1765', place: 'Lyse', country: 'Sweden' },
+      { name: 'H. Rønnild', date: 'b. ca. 1580', place: 'Skjeberg, Østfold', country: 'Norway' },
+      { name: 'G. Oddsson', date: '1760-1835', place: 'Eyjafjarðarsýsla', country: 'Iceland' },
+      { name: 'Andersson', date: 'b. 1698', place: 'Nyed', country: 'Sweden' },
+      { name: 'G. Hendrickson', place: 'Fister, Rogaland', country: 'Norway' },
+      { name: 'Lars Joneson', date: 'b. 1804', country: 'Norway' },
+      { name: 'Halvorson', date: 'b. 1641', place: 'Ritland, Suldal', country: 'Norway' },
+      { name: 'Gundersen', date: 'b. 1806', place: 'Skipvet', country: 'Norway' },
+      { name: 'Askeland', date: 'b. 1560', place: 'Tysvær', country: 'Norway' },
+      { name: 'Olsen', date: 'b. 1894', place: 'Gildeskål', country: 'Norway' },
+      { name: 'Samuel Hyde', date: 'b. 1736', country: 'United Kingdom' },
+      { name: 'Strøm', date: 'b. c. 1709', place: 'Aremark', country: 'Norway' },
+      { name: 'Joseph Wilson', date: '1820-1861', place: 'Ohio', country: 'United States' }
+    ],
+    countries: ['Sweden', 'Norway', 'Iceland', 'United Kingdom', 'United States', 'Scotland'],
+    description: 'An updated, comprehensive June 2026 map detailing the subclades under BY4675. This tree maps out various lineages from Sweden, Norway, Iceland (G. Oddsson), England (Samuel Hyde), and Scotland (Garden Alexander Garden, b. 1720). It outlines the branching events around 500 CE, 600 CE, and 650 CE.',
+    notes: 'Highlights "NEW!" placement of Ron Dahlgren line and several newly tested lines.'
+  },
+  {
+    id: 'scandinavian-y11662-jun-2026',
+    title: 'Swedish & Danish Sub-Branches: Y11662 - BY4659 - BY19596',
+    branch: 'Swedish / Scandinavian',
+    date: 'June 6, 2026',
+    version: 'June 6th, 2026',
+    path: '/manus-storage/718161162_10164869567608910_7537300260447318844_n_9b37c57f.jpg',
+    keySNPs: ['Y11662', 'BY4659', 'BY19596', 'BY3451', 'BY38562', 'FT112257', 'BY38565', 'BY138749', 'BY115197', 'BY25456', 'BY19601', 'BY114944', 'BY103046', 'FT72333', 'FT72613'],
+    keyAncestors: [
+      { name: 'Brunström', date: 'b. ca. 1712', place: 'Västergötland', country: 'Sweden' },
+      { name: 'A. Olsson', date: 'b. ca. 1718', place: 'Tanum (O)', country: 'Sweden' },
+      { name: 'Hemming Olofsson', date: 'b. 1751', place: 'Grönehög, Brålanda', country: 'Sweden' },
+      { name: 'Olavi Scherman (NEW!)', country: 'Finland' },
+      { name: 'Thomas Tenney', date: 'b. 1540', place: 'England', country: 'United Kingdom' },
+      { name: 'H. Tenney', date: 'b. 1510', place: 'England', country: 'United Kingdom' },
+      { name: 'Jesper', date: 'b. ca. 1700', country: 'Denmark' },
+      { name: 'C. J. Christensen', date: 'b. 1863', place: 'Hjørring', country: 'Denmark' },
+      { name: 'Lars Persson', date: 'b. 1833', country: 'Sweden' },
+      { name: 'Gunbjørn Viggenes Heyerdahl', date: 'b. 1575', place: 'Aurskog, Akershus', country: 'Norway' },
+      { name: 'Christen Ladefoged', date: 'b. 1665', place: 'Valsted, near Nibe', country: 'Denmark' },
+      { name: 'Anders Andersson', date: 'b. 1758', country: 'Sweden' }
+    ],
+    countries: ['Sweden', 'Finland', 'Denmark', 'Norway', 'United Kingdom', 'United States'],
+    description: 'A detailed June 2026 chart of the Y11662 - BY4659 - BY19596 branches. It illustrates the genetic splits among Swedish (Brunström, Olsson, Olofsson), Finnish (Scherman), English/American (Tenney), Danish (Christensen, Ladefoged), and Norwegian (Heyerdahl) lineages.',
+    notes: 'Features the "NEW!" placement of Olavi Scherman (Finland) under FT112257. Also details the Tenney family branches.'
+  },
+  {
     id: 'main-tree-2025',
     title: 'R1b-L238 Main SNP Tree',
     branch: 'Main',
